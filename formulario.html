@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="CSS/styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+   <h1>Formulario</h1> 
+   <form action="otroHTML.html" method="post">
+     <p><label for="nombre"> Nombre: <input type="text" id="nombre"></label></p>
+     <p><label for="Apellido"> Apellido: <input type="text" id="apellido"></label></p>
+     <p><label for="Edad"> Edad: <input type="text" id="edad"></label></p>
+     <p><label for="observacion"> Observación: <textarea  id="observacion"></textarea></label></p>
+     
+
+     <p><label> Estatura:
+       <select id="estatura">
+       <option value=" <1,50"> < 1,50 mts </option>
+       <option value="1,51 a 1,60"> 1,51 a 1,60 </option>
+       <option value="1,61 a 1,70"> 1,61 a 1,70 </option>
+       <option value="1,71 a 1,80"> 1,71 a 1,80 </option>
+       <option value="1,81 a 1,90"> 1,81 a 1,90 </option>
+       <option value=" >1,90" disabled > 1,90 mts </option>
+    </select>
+     </label></p>
+
+     <p>Color de ojos:</p>
+     <input type="radio" value="marron">
+      <label>Marrón</label> <br>
+    <input type="radio" value="azules">
+      <label>Azules</label> <br>
+    <input type="radio" value="verdes">
+      <label>Verdes</label> <br>
+    <input type="radio" value="negros">
+      <label>Negros</label> <br>
+    
+
+     <br>
+
+     <button type="submit">Enviar</button>
+     <button type="reset">Resetear</button>
+
+   </form>
+</body>
